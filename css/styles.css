@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #2D2D2D;
+  width: 100%;
+  line-height: 1.6;
+  padding: 36px 16px;
+  display: flex;
+  justify-content: center;
+}
+
+h1, h2 {
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+#wrapper {
+  width: 900px;
+}
+
+#recipe-list {
+ display: flex;
+ flex-direction: column;
+}
+
+/* Recipe page styles */
+
+#recipe-content {
+  display:flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 900px;
+}
+
+img {
+  width: 65%;
+  height: auto;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
