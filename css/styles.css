@@ -19,14 +19,36 @@ h1, h2 {
   margin: 10px 0;
 }
 
-#wrapper {
-  width: 900px;
+#recipe-list {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-gap: 2rem;
+ margin: 32px 0;
 }
 
-#recipe-list {
- display: flex;
- flex-direction: column;
+#recipe-list > a {
+  text-decoration: none;
+  color: inherit;
 }
+
+#recipe-list > a:hover {
+  text-decoration: underline;
+  text-decoration-color: #d54215;
+}
+
+.recipe-item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 364px;
+}
+
+.recipe-item > img {
+  width: 100%;
+  object-fit: contain;
+}
+
+
 
 /* Recipe page styles */
 
